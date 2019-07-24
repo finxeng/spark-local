@@ -14,7 +14,7 @@ public class CreateText {
         try {
             Random random = new Random();//生成随机数
             FileWriter fileWriter = new FileWriter(file);//新建一个文件
-            for (int i=1;i<=100000000;i++){   //生成10万个数字
+            for (int i=1;i<=10000000;i++){   //生成10万个数字
                 int height = random.nextInt(220);
                 if (height < 50) {
                     height = height + 50;
